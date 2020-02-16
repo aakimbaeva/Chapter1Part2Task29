@@ -1,0 +1,8 @@
+text = str(input('Enter sentence: '))
+text1 = text.replace(',', '')
+text2 = text1.replace('.', '')
+text3 = text2.replace('!', '')
+text4 = text3.replace(':', '')
+text5 = text4.replace(';', ' ')
+text6 = text5.replace('?', '')
+print(text6)
